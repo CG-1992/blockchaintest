@@ -21,7 +21,7 @@ print(web3.isConnected())
 print(web3.eth.blockNumber)
 account_1 = "0xCa435aedd0CD055D7b2a00435027f38D7616Bd42"
 account_2 = "0x7Ea8c649612d912A6571d0De10B1A20f192e1170"
-private_key = "8eae086bf69ea235d30167b22afe7aaa40ddf79e68130073efbd82624b138c2c"
+
 # get the nonce
 # what is nonce?
 ## nonce is a number that can only be used once. In cryptography, a nonce is a one-time code selected in a random or pseudo-random manner that is used to securely transmit a main password, preventing replay attacks.
