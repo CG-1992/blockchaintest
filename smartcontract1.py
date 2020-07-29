@@ -18,3 +18,13 @@ article.nlp()
 corpus = article.text
 #print the article text
 print(corpus)
+#tokanization
+text = corpus
+sentence_list = nltk.sent_tokenize(text)
+print(sentence_list)
+
+# function to return a random greeting response to user greeting
+def greeting_response(text):
+    text = text.lower()
+bot_greetings = ["مرحبا", "أحد"]
+print(bot_greetings)
